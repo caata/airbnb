@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    
+    background: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0;
+    padding:0;
+    height: 100vh;
+}
+
+.App{
+    border-radius: 10px;
+    width: 550px;
+    height: 853px;
+    overflow: hidden;
+    background-color: white;
+}
+
+/*-----------Nav-----------*/
+
+nav{
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    width: 550px;
+    height:70px;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.navImg{
+    
+    width: 82px;
+    height: 25px;
+    
+}
+
+/*-----------Main-----------*/
+
+main{
+    margin:30px auto;
+}
+
+.gridImg{
+    display: block;
+    margin:0 auto;
+    width: 395px;
+    height: 232px;
+    
+}
+
+
+
+
+.mainImg{
+    
+    margin:0 auto;
+    
+}
+
+
+.mainTitle{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 110%;
+}
+
+.mainDesc{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 110%;
+}
+
+.mainTxtBox{
+    padding-left: 36px;
+    padding-bottom: 5px;
+}
+
+
+/*-----------Card-----------*/
+
+.cardDiv{
+  
+ padding-left: 37px;
+}
+
+
+.cardImg{
+    border-radius: 9px;
+    width: 176px;
+    height: 235px;
+}
+
+.cardStar{
+    width: 14px;
+    height: 14px;
+    color: #FE395C;
+    border-radius: 0.5px;
+}
+
+.cardRating{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+}
+
+.cardReviews{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+}
+
+.cardCountry{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+}
+
+.cardDesc{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;  
+}
+
+.cardPrice{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 110%;
+}
+
+
+
+.cardsList{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+::-webkit-scrollbar {
+    background-color: white;
+    height: 5px;
+}
+::-webkit-scrollbar-track {
+    margin-inline:20px ;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #FE395C;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #76192a;
+}
